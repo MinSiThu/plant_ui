@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:plant_ui/BrowsePage.dart';
 import './colors.dart';
 
 class LoginPage extends StatefulWidget {
@@ -70,7 +71,7 @@ class _LoginPageState extends State<LoginPage> {
                 GestureDetector(
                     onTap: () {
                       Navigator.push(context,
-                          MaterialPageRoute(builder: (context) => LoginPage()));
+                          MaterialPageRoute(builder: (context) => BrowsePage()));
                     },
                     child: Container(
                       width: MediaQuery.of(context).size.width,
